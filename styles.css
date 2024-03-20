@@ -24,6 +24,59 @@ body {
 }
 
 /**************************/
+/* HEADER */
+/**************************/
+
+.header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem 10rem;
+  box-shadow: 0 0 1px;
+}
+
+.main-nav-list {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  list-style: none;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #111111;
+  font-weight: 500;
+  font-size: 2rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #da004c;
+  transform: translateY(-10%);
+}
+
+.btn-cta {
+  padding: 1rem 2rem;
+  background-color: #da004c;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.btn-cta:hover,
+.btn-cta:active {
+  background-color: #e13370;
+  transition: all 0.3s;
+}
+
+/**************************/
 /* HERO SECTION */
 /**************************/
 
