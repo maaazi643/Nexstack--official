@@ -212,6 +212,7 @@ body {
   line-height: 1.7;
   margin-bottom: 2.4rem;
   font-weight: 500;
+  padding-right: 4.5rem;
 }
 
 .heading-secondary {
@@ -383,6 +384,118 @@ body {
   font-size: 2.4rem;
   font-weight: 600;
   color: #fff;
+}
+
+.coupon::after {
+  content: "Coming Soon";
+  background-color: #e86e04;
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 2.1rem 1.4rem;
+  display: inline-block;
+  position: absolute;
+  right: 17rem;
+  transform: skew(-5deg);
+  border-radius: 5px;
+}
+
+/**************************/
+/* SECTION TESTIMONIALS*/
+/**************************/
+.section-testimonials {
+  padding-top: 10rem;
+  margin-inline: 10rem;
+  text-align: center;
+}
+
+.testimonial-description {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 11.5rem;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4.6rem;
+  text-align: left;
+}
+
+.student-testimonial {
+  background-color: #e86e04;
+  box-shadow: -6px 7px 0 0.5px #111111;
+  border-radius: 5px;
+  padding-inline: 4rem;
+}
+
+.testimonial-review {
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.7;
+  color: #fff;
+  padding-top: 6.8rem;
+  margin-bottom: 4.4rem;
+}
+
+.customers-info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 6.8rem;
+}
+
+.customer-picture {
+  width: 6rem;
+  height: 6rem;
+}
+
+.customer-name {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.customer-status {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.parent-testimonial--one {
+  background-color: #da004c;
+  padding-inline: 4rem;
+  box-shadow: -6px 7px 0 0.5px #111111;
+  border-radius: 5px;
+}
+
+.parent-testimonial--two {
+  background-color: #e86e04;
+  padding-inline: 4rem;
+  box-shadow: -6px 7px 0 0.5px #111111;
+  border-radius: 5px;
+}
+
+/**************************/
+/* SECTION HEARSAY*/
+/**************************/
+
+.hearsay-section {
+  text-align: center;
+  padding-top: 10rem;
+}
+
+.hearsay-description {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+.hearsay-img {
+  width: 100%;
+  padding-top: 4.4rem;
+  padding-inline: 10rem;
 }
 
 /**************************/
