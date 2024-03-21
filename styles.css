@@ -519,6 +519,43 @@ body {
   padding-inline: 10rem;
 }
 
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-top: 7rem;
+  /* width: 700px; */
+}
+
+.item {
+  display: flex;
+  gap: 4rem;
+  padding-top: 4rem;
+
+  /* display: grid;
+  grid-template-columns: auto 1fr; */
+  /* column-gap: 24px;
+  row-gap: 32px; */
+  align-items: center;
+}
+
+.text {
+  font-size: 2.6rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.answer {
+  font-size: 1.8rem;
+  padding-top: 1.5rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+/* .open .hidden-box {
+  display: block;
+} */
+
 .faq-card {
   background-color: #111111;
   box-shadow: -6px 7px 0 0.5px #e86e04;
@@ -559,6 +596,60 @@ body {
   border: none;
   border-radius: 5px;
   margin-bottom: 5rem;
+}
+
+/**************************/
+/* FOOTER */
+/**************************/
+
+.footer {
+  padding-top: 7rem;
+  background-color: #111111;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-left: 10rem;
+  color: #fff;
+}
+
+.footer-description {
+  font-weight: 500;
+  font-size: 2.2rem;
+  line-height: 1.6;
+  padding-top: 4rem;
+}
+.secondary {
+  padding-top: 2rem;
+}
+
+.grouped-logos {
+  padding-top: 5.4rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.grouped-logos img {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+}
+
+.twitter {
+  background-color: #da004c;
+  border-radius: 50%;
+}
+
+.footer-secondary h4 {
+  padding-top: 2rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 2.6rem;
+}
+
+.footer-links li {
+  font-size: 2.2rem;
+  margin-bottom: 2.4rem;
+  list-style: none;
 }
 
 /**************************/
