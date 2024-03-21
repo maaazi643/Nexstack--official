@@ -499,6 +499,69 @@ body {
 }
 
 /**************************/
+/* SECTION FAQ*/
+/**************************/
+
+.section-faq {
+  padding-top: 10rem;
+  text-align: center;
+}
+
+.faq-description {
+  font-size: 2.4rem;
+  line-height: 1.6;
+}
+
+.asked-questions-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 12.4rem;
+  padding-inline: 10rem;
+}
+
+.faq-card {
+  background-color: #111111;
+  box-shadow: -6px 7px 0 0.5px #e86e04;
+  color: #fff;
+  transform: rotate(-6deg);
+  text-align: left;
+  padding-left: 4.2rem;
+  border-radius: 5px;
+}
+
+.faq-small-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  opacity: 80%;
+  padding-top: 4.6rem;
+  margin-bottom: 4rem;
+}
+
+.faq-more {
+  font-size: 6rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.faq-description {
+  font-size: 2.2rem;
+  font-weight: 500;
+  padding-right: 6rem;
+  margin-bottom: 5rem;
+}
+
+.btn--speak {
+  padding: 1rem 2rem;
+  background-color: #da004c;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 5rem;
+}
+
+/**************************/
 /* HELPER CLASS */
 /**************************/
 .margin-right {
