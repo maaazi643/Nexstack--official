@@ -1,0 +1,242 @@
+/**************************/
+/* Below 1400px (Smaller Desktop) */
+/**************************/
+
+@media (max-width: 88em) {
+  .header {
+    padding: 2.4rem 7rem;
+  }
+
+  .main-nav-list {
+    gap: 2.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.9rem;
+  }
+
+  .btn-cta {
+    padding: 0.9rem 1.8rem;
+    font-size: 1.8rem;
+  }
+
+  /**************************/
+  /* HERO SECTION */
+  /**************************/
+
+  .section-hero {
+    padding-left: 7rem;
+  }
+
+  .heading-primary {
+    font-size: 6rem;
+    line-height: 1.25;
+  }
+
+  /**************************/
+  /* SECTION WHY*/
+  /**************************/
+
+  .section-why {
+    padding-left: 7rem;
+  }
+
+  .heading-tertiary {
+    font-size: 5.5rem;
+  }
+
+  /**************************/
+  /* SECTION PACKAGE - SUB SECTION OF SECTION DESIRED*/
+  /**************************/
+
+  .section-schedule {
+    border-right: 2px solid #111111;
+    padding: 0 2.2rem 0 3.75rem;
+  }
+
+  .section-certification {
+    padding: 0 2.2rem 0 3.75rem;
+  }
+
+  .section-package {
+    margin-inline: 7rem;
+  }
+
+  .section-web-development {
+    padding: 3.3rem 0 4rem 4.8rem;
+  }
+
+  .package-list {
+    font-size: 1.5rem;
+    line-height: 1.7;
+  }
+
+  /**************************/
+  /* SECTION FAQ*/
+  /**************************/
+
+  .asked-questions-grid {
+    grid-template-columns: 1.8fr 1.1fr;
+  }
+
+  .text {
+    font-size: 2.1rem;
+  }
+
+  /**************************/
+  /* SECTION REGISTER*/
+  /**************************/
+
+  .heading-register {
+    font-size: 4.3rem;
+  }
+
+  .asked-questions-grid {
+    padding-left: 7rem;
+  }
+
+  .section-testimonials {
+    margin-inline: 7rem;
+  }
+
+  .hearsay-img {
+    padding-inline: 7rem;
+  }
+
+  .orange-icon {
+    width: 5rem;
+    margin-top: 1rem;
+  }
+
+  .footer {
+    padding-left: 7rem;
+    padding-right: 10rem;
+  }
+}
+
+/**************************/
+/* Below 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  .header {
+    padding: 2.4rem 5rem;
+  }
+
+  .section-hero {
+    padding-left: 5rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 1.7rem;
+  }
+
+  .heading-primary {
+    font-size: 5rem;
+    line-height: 1.25;
+  }
+
+  .hero-description {
+    font-size: 2rem;
+    line-height: 1.6;
+    font-weight: 500;
+    padding-right: 7.8rem;
+  }
+
+  .heading-tertiary {
+    font-size: 5rem;
+  }
+  .section-why {
+    padding-left: 5rem;
+  }
+
+  .section-why-description {
+    padding-right: 6.5rem;
+  }
+
+  .section-schedule {
+    border-right: 2px solid #111111;
+    padding: 0 2.2rem 0 2.75rem;
+  }
+  .section-certification {
+    padding: 0 1.2rem 0 2.75rem;
+  }
+
+  .section-description {
+    font-size: 1.6rem;
+    line-height: 1.8;
+  }
+
+  .section-package {
+    margin-inline: 5rem;
+    gap: 3.2rem;
+  }
+
+  .package-heading {
+    font-size: 2.8rem;
+  }
+
+  .package-price {
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+
+  .package-description {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+  }
+
+  .btn-register {
+    padding: 0.8rem 1.6rem;
+    font-size: 2rem;
+  }
+
+  .Learn-More-link:link,
+  .Learn-More-link:visited {
+    font-size: 2rem;
+  }
+
+  .coupon::after {
+    font-size: 1.5rem;
+    padding: 2rem 1.2rem;
+    right: 10rem;
+  }
+
+  .testimonial-review {
+    font-size: 1.8rem;
+  }
+
+  .testimonial-grid {
+    gap: 3rem;
+  }
+
+  .customer-picture {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .customer-name {
+    font-size: 2rem;
+  }
+
+  .customer-status {
+    font-size: 1.5rem;
+  }
+
+  .hearsay-description {
+    font-size: 1.7rem;
+  }
+
+  .hearsay-img {
+    padding-inline: 5rem;
+  }
+
+  .faq-description {
+    font-size: 2rem;
+  }
+}
