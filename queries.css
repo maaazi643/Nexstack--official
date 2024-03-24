@@ -120,6 +120,102 @@
 /**************************/
 
 @media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .header {
+    padding: 2.4rem 5rem;
+  }
+
+  .section-hero {
+    padding-left: 5rem;
+  }
+
+  .section-why {
+    padding-left: 5rem;
+  }
+
+  .section-why-description {
+    padding-right: 6.5rem;
+  }
+
+  .section-schedule {
+    border-right: 2px solid #111111;
+    padding: 0 2.2rem 0 2.75rem;
+  }
+  .section-certification {
+    padding: 0 1.2rem 0 2.75rem;
+  }
+
+  .section-package {
+    margin-inline: 5rem;
+    gap: 3.2rem;
+  }
+
+  .btn-register {
+    padding: 0.8rem 1.6rem;
+    /* font-size: 2rem; */
+  }
+
+  .coupon::after {
+    /* font-size: 1.5rem; */
+    padding: 2rem 1.2rem;
+    right: 10rem;
+  }
+
+  .testimonial-grid {
+    gap: 3rem;
+  }
+
+  .customer-picture {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .hearsay-img {
+    padding-inline: 5rem;
+  }
+
+  .asked-questions-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 10rem;
+    padding-inline: 5rem;
+  }
+
+  .register-grid {
+    display: grid;
+    grid-template-columns: 1.5fr auto 1fr;
+    padding-right: 5rem;
+  }
+
+  .Nexstack-clothes {
+    width: 100%;
+  }
+
+  .grouped-logos img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .footer-description {
+    font-size: 1.8rem;
+  }
+
+  .footer-secondary h4 {
+    font-size: 1.8rem;
+  }
+
+  .footer-links li {
+    font-size: 1.7rem;
+  }
+
+  .copyright {
+    font-size: 1.5rem;
+  }
+
+  /*   
   .header {
     padding: 2.4rem 5rem;
   }
@@ -239,4 +335,54 @@
   .faq-description {
     font-size: 2rem;
   }
+
+  .asked-questions-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 10rem;
+    padding-inline: 5rem;
+  }
+
+  .text {
+    font-size: 1.7rem;
+  }
+
+  .faq-more {
+    font-size: 5rem;
+  }
+
+  .register-grid {
+    display: grid;
+    grid-template-columns: 1.5fr auto 1fr;
+    padding-right: 5rem;
+  }
+
+  .Nexstack-clothes {
+    width: 100%;
+  }
+
+  .heading-register {
+    font-size: 3.9rem;
+  }
+
+  .footer-description {
+    font-size: 1.8rem;
+  }
+
+  .grouped-logos img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .footer-secondary h4 {
+    font-size: 1.8rem;
+  }
+
+  .footer-links li {
+    font-size: 1.7rem;
+  }
+
+  .copyright {
+    font-size: 1.5rem;
+  } */
 }
