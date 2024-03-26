@@ -215,6 +215,169 @@
     font-size: 1.5rem;
   }
 
+  /**************************/
+  /* Below 1024px (Tablets) */
+  /**************************/
+
+  @media (max-width: 64em) {
+    html {
+      font-size: 50%;
+    }
+  }
+  /**************************/
+  /* Below 944px (Tablets) */
+  /**************************/
+
+  @media (max-width: 59em) {
+    html {
+      font-size: 45%;
+    }
+
+    .section-hero {
+      padding-inline: 2rem;
+    }
+
+    .hero {
+      grid-template-columns: 1fr;
+      padding: 0 4rem;
+    }
+
+    .hero-text-box {
+      text-align: center;
+      padding-top: 5rem;
+    }
+    .hero-description {
+      padding-right: 0;
+    }
+
+    .hero-img-box {
+      text-align: center;
+      padding-top: 7rem;
+    }
+
+    .hero-img {
+      width: 70%;
+    }
+
+    .hero-icon {
+      transform: translate(-140%, 50%);
+    }
+  }
+
+  /**************************/
+  /* Below 770px (Smaller Tablets) */
+  /**************************/
+
+  @media (max-width: 48em) {
+    html {
+      font-size: 48%;
+    }
+
+    .main-nav {
+      display: none;
+    }
+    .btn-cta {
+      display: none;
+    }
+
+    .Nexstack-logo {
+      width: 20%;
+    }
+
+    .section-why {
+      grid-template-columns: 1fr;
+      border: none;
+      padding-inline: 5rem;
+    }
+    .section-description {
+      border-bottom: 2px solid #111111;
+      padding-bottom: 3rem;
+    }
+    .last {
+      border-bottom: none;
+    }
+
+    .section-why-description {
+      padding-right: 0;
+    }
+
+    .section-why-img {
+      width: 100%;
+      padding-right: 0;
+    }
+
+    .section-learn {
+      border: none;
+    }
+
+    .section-schedule {
+      border: none;
+      padding-top: 10rem;
+      padding-inline: 0;
+    }
+
+    .section-certification {
+      padding-inline: 0;
+    }
+
+    .section-desired {
+      padding-inline: 5rem;
+      text-align: left;
+    }
+
+    .section-desired h2,
+    .desired-description,
+    .btn-group {
+      text-align: left;
+    }
+
+    .instruction {
+      text-align: center;
+    }
+    .section-package {
+      grid-template-columns: 1fr;
+      margin-inline: 0;
+    }
+
+    .section-web-development {
+      padding: 3.3rem 3rem 4rem 3rem;
+    }
+
+    .section-mobile-development {
+      padding: 3.3rem 3rem 4rem 3rem;
+    }
+
+    .section-design {
+      padding: 3.3rem 3rem 4rem 3rem;
+      border-radius: 0;
+    }
+
+    .package-list {
+      font-size: 1.9rem;
+    }
+
+    .section-testimonials {
+      margin-inline: 5rem;
+      text-align: left;
+    }
+    .break {
+      display: none;
+    }
+
+    .testimonial-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hearsay-section {
+      text-align: left;
+      padding-inline: 5rem;
+    }
+
+    .hearsay-img {
+      padding-inline: 0;
+    }
+  }
+
   /*   
   .header {
     padding: 2.4rem 5rem;
