@@ -621,7 +621,8 @@ body {
   margin-bottom: 3rem;
 }
 
-.faq-description {
+.faq-description,
+.faq-description--1 {
   font-size: 2.2rem;
   font-weight: 500;
   padding-right: 6rem;

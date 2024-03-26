@@ -376,6 +376,107 @@
     .hearsay-img {
       padding-inline: 0;
     }
+
+    .section-faq {
+      text-align: left;
+      padding-inline: 5rem;
+    }
+
+    .asked-questions-grid {
+      grid-template-columns: 1fr;
+      padding-inline: 0;
+    }
+
+    .accordion {
+      padding-top: 0;
+    }
+
+    .faq-description--1 {
+      padding-right: 0;
+      margin-bottom: 2rem;
+    }
+
+    .faq-card {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .register-grid {
+      grid-template-columns: 1fr;
+      padding-inline: 5rem;
+    }
+
+    .register-grid-col-2 {
+      order: -1;
+      padding-top: 0;
+    }
+    .orange-icon {
+      order: -2;
+    }
+    .footer {
+      padding-inline: 5rem;
+      gap: 5rem;
+    }
+  }
+
+  /**************************/
+  /* Below 500px (Phones) */
+  /**************************/
+
+  @media (max-width: 32em) {
+    .Nexstack-logo {
+      width: 30%;
+    }
+    .hero-text-box {
+      text-align: left;
+    }
+    .heading-primary {
+      font-size: 5rem;
+    }
+
+    .hero {
+      padding: 0 2rem;
+    }
+
+    .header {
+      padding: 2.4rem 4rem;
+    }
+
+    .section-why {
+      padding-inline: 4rem;
+    }
+
+    .heading-tertiary {
+      font-size: 4rem;
+    }
+
+    .section-desired {
+      padding-inline: 4rem;
+    }
+
+    .section-testimonials {
+      margin-inline: 4rem;
+    }
+
+    .hearsay-section {
+      padding-inline: 4rem;
+    }
+    .section-faq {
+      padding-inline: 4rem;
+    }
+    .text {
+      font-size: 1.85rem;
+    }
+    .register-grid {
+      padding-inline: 4rem;
+    }
+    .Nexstack-logo-white {
+      width: 40%;
+    }
+
+    .footer {
+      grid-template-columns: 1fr;
+    }
   }
 
   /*   
